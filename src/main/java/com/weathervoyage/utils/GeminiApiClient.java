@@ -14,7 +14,7 @@ import java.nio.charset.StandardCharsets;
 
 public class GeminiApiClient {
     private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
-    private static final String API_KEY = "AIzaSyDt8b1cKc7G1T0UTd9-MHGr2bSE36Bx4Ws";
+    private static final String API_KEY = "Add Gemini API Key";
 
     public String generateContent(String prompt) throws IOException {
         try (CloseableHttpClient httpClient = HttpClients.createDefault()) {

@@ -13,7 +13,7 @@ import org.json.JSONArray;
 
 public class WeatherService {
     // Replace this with your actual OpenWeatherMap API key
-    private static final String API_KEY = "232bd5266f3e15c8b6973b28e3076cfc";
+    private static final String API_KEY = "Add Open Weather API Key";
     private static final String BASE_URL = "http://api.openweathermap.org/data/2.5/forecast";
 
     public WeatherData getWeatherForecast(String location, String date) {

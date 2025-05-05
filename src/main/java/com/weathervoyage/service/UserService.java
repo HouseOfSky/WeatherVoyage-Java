@@ -7,9 +7,10 @@ import java.util.List;
 
 public class UserService {
 
+    // Add own database password!
     private static final String DB_URL = "jdbc:mysql://localhost:3306/WeatherDB";
-    private static final String DB_USER = "root";
-    private static final String DB_PASS = "Akash@#2003";
+    private static final String DB_USER = "";
+    private static final String DB_PASS = "";
     
 
     public Connection getConnection() throws SQLException {
